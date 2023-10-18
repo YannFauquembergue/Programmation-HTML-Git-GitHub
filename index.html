@@ -3,34 +3,47 @@
     <head>
         <meta charset='utf-8'>
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-        <title>Page Title</title>
+        <title>Site html de Yann</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     </head>
     <body>
         <div class="menu">
+            <!-- Bandeau rouge du site -->
             <h1>Je suis le plus gros titre HTML</h1>
         </div>
 
         <div class="corps">
+            <!-- Menu bleu du site -->
             <p>Début de paragraphie: je suis un site composé de 3 div principales Avec les class : Menu, Corps et Footer. Le corps possède une propriété qui permet d'avoir une certaine hauteur de 350 px. Le footer est à 100px et le menu 75. à la fin de ce paragraphe il y aura 2 div de contenu . fin de paragraphe</p>
+            <!-- Ajout d'une div qui contient les deux divs image et tableau, placée après le paragraphe -->
             <div>
+                <!-- Div bleu avec une image trouvée par son lien -->
                 <div id="sous-contenuA">
                     <p>Dans cette div Bleu voici une image</p>
-                    <img src="https://i.aquarelle.com/01/images/produits/bouquet-de-roses-arlequin-350x350-50589.jpg" height="250px">
+                    <img src="https://i.aquarelle.com/01/images/produits/bouquet-de-roses-arlequin-350x350-50589.jpg" height="200px">
                 </div>
+
+                <!-- Contenu avec un tableau -->
                 <div id="sous-contenuB">
                     <p>Dans cette div verte Voici un petit tableau avec une class table</p>
                     <table>
-                        <tr><td id="cell1">Celule 1 avec une marge interieur de 10px</td>
-                        <td rowspan="2">Je suis une celule fusionné</td></tr>
-                        <tr><td>Celule 3</td></tr>
+                        <tr>
+                            <td id="cell1">Celule 1 avec une marge interieur de 10px</td>
+                            <!-- Utilisation de la propriété rowspan pour agrandir la cellule d'une colonne -->
+                            <td rowspan="2">Je suis une celule fusionné</td>
+                        </tr>
+                        <tr>
+                            <td>Celule 3</td>
+                        </tr>
                     </table>
                 </div>
             </div>
         </div>
 
         <div class="footer">
+            <!-- Pied de page beige du site -->
+            <!-- Ajout d'un lien hypertexte menant vers Google -->
             <a href="http://google.com">je suis un lien vers google</a>
         </div>
     </body>
